@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel File Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+
+</head>
+<body>
+    <h1>Excel File Splitter</h1>
+    <button id="selectTarget">Select Target</button>
+    <input type="number" id="splitParts" min="1" value="1">
+    <button id="splitFile">Split</button>
+    <div id="progressBarContainer" style="display: none;">
+        <div id="progressBar"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
